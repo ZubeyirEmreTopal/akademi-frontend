@@ -80,7 +80,13 @@ class Home extends React.Component {
   }
 
   getAllPost = () =>{
-    fetch("http://localhost:8080/api/posts/getall")
+    fetch("http://localhost:8080/api/posts/getall",{
+      method: 'GET',
+      headers: {
+        'Authorization': 'Bearer ' + localStorage.getItem("currentUserToken"),
+        'Content-Type': 'application/json'
+      }
+    })
          .then(res => res.json())
          .then(result => { this.setState({posts:result})})
          .catch(error => {console.log(error)})
