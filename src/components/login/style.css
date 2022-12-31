@@ -1,0 +1,80 @@
+
+
+
+.container{
+    width: 400px;
+    height: 400px;
+    border: solid 2px  #EAF6F6 ;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #EAF6F6;
+    border-radius: 10px;
+}
+
+.container form {
+    display: block;
+   
+  
+}
+
+.container form input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 24px;
+    border: 2px solid #66BFBF;
+    border-radius: 3px;
+}
+
+
+
+.container form div{
+    width: 200px;
+    margin: auto;
+   
+    margin-top: 1%;
+
+}
+
+.container form button {
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.container form button:hover{
+    background-color:  #66BFBF;
+    color: #EAF6F6;
+}
+
+.login-text{
+
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+
+#password-forget{
+    margin-left: 100px;
+}
+
+#btn-register{
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#btn-register:hover{
+    background-color: #F76B8A;
+    color: #EAF6F6;
+}
